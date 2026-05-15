@@ -16,7 +16,13 @@ export function Footer() {
             Psychological Warfare
           </p>
           <p className="mt-0.5 text-xs text-charcoal/80 md:text-sm">
-            Guidance and supportive consultation services · *<a href="/book#disclaimer" className="underline hover:text-cream/100">Disclaimer</a>
+            Guidance and supportive consultation services · *
+            <Link
+              href="/book#disclaimer"
+              className="underline hover:text-cream/100"
+            >
+              Disclaimer
+            </Link>
           </p>
         </div>
         <div className="flex shrink-0 flex-wrap justify-center gap-4 md:gap-6">
